@@ -1,0 +1,134 @@
+.user-posts-detailed-view {
+  background: #fafafa;
+  min-height: 100vh;
+}
+.user-stories-list-items {
+  list-style-type: none;
+  background: #fafafa;
+}
+.user-stories-desktop-view {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  max-width: 1110px;
+  margin: auto;
+  background: #fafafa;
+}
+.user-stories-desktop-view {
+  display: none;
+}
+.user-stories-mobile-view {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+@media screen and (min-width: 768px) {
+  .user-stories-desktop-view {
+    display: block;
+  }
+  .user-stories-mobile-view {
+    display: none;
+  }
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-item {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -25px;
+}
+.slick-container {
+  width: 80%;
+  margin-top: 10px;
+}
+.slick-story-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  text-align: center;
+}
+.logo-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.story-user-name {
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  color: #262626;
+  height: 24px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.fail-retry {
+  background-color: #6366f1;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 25px;
+}
+.fail-con {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.desktop-view-slider {
+  display: none;
+}
+.story-ring {
+  height: 60px;
+  width: 60px;
+  border-radius: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .story-ring {
+    height: 90px;
+    width: 90px;
+    border-radius: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktop-view-slider {
+    display: flex;
+  }
+  .mobile-view-slider {
+    display: none;
+  }
+  .logo-image {
+    height: 75px;
+    width: 75px;
+    border-radius: 45px;
+  }
+  .story-user-name {
+    font-size: 14px;
+  }
+  .slick-container {
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: -25px;
+  }
+}

@@ -1,0 +1,235 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.menu-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.nav-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 214px;
+  height: 28px;
+  left: 781px;
+  top: 18px;
+
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+.nav-small-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 214px;
+  height: 28px;
+  left: 781px;
+  top: 18px;
+
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+.nav-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-small-input-container {
+    display: none;
+  }
+}
+.inputCls {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: #989898;
+}
+.nav-title-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #262626;
+}
+.nav-logo-desktop-img {
+  height: 29.99989128112793px;
+  width: 59px;
+  left: 200px;
+  top: 17px;
+  border-radius: 0px;
+}
+.search-icon-container {
+  width: 34px;
+  height: 26px;
+  left: 960px;
+  top: 19px;
+
+  background: #dbdbdb;
+  border-radius: 0px 2px 2px 0px;
+}
+.nav-link {
+  text-decoration: none;
+}
+.hamburger-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+}
+.logoutBtn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #4094ef;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+.search-icon-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 48px;
+  height: 26px;
+  left: 960px;
+  top: 19px;
+  background: #dbdbdb;
+  border-radius: 0px 2px 2px 0px;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .nav-list {
+    justify-content: space-evenly;
+  }
+}
+.nav-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+  margin-right: 10px;
+}
+.active-nav-name {
+  color: #4094ef;
+}
+.small-nav-list {
+  display: none;
+}
+/* .small-list2 {
+  display: none;
+} */
+@media screen and (max-width: 768px) {
+  .small-nav-list {
+    display: block;
+  }
+  /* .small-list2 {
+    display: block;
+  } */
+}
+
+.nav-bar-bg-dark {
+  background-color: #0f0f0f;
+}
+
+.nav-bar-bg-light {
+  background-color: #f9f9f9;
+}
+
+.list-text-light-theme {
+  color: #475569;
+}
+
+.list-text-dark-theme {
+  color: #ffffff;
+}

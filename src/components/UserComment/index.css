@@ -1,0 +1,16 @@
+.delete-btn {
+  background-color: transparent;
+  border-width: 0px;
+  color: dimgrey;
+  font-size: 12px;
+  font-family: 'roboto';
+  margin-left: 20px;
+  height: 10px;
+  align-self: flex-start;
+  margin-top: 6px;
+}
+
+.comment-list-item {
+  display: flex;
+  align-items: center;
+}

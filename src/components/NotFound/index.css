@@ -1,0 +1,62 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.not-found-img {
+  height: 250px;
+}
+.not-found-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+
+  text-align: center;
+
+  color: #262626;
+}
+.not-found-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #989898;
+}
+
+.not-found-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 32px;
+
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #4094ef;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+.not-found-link {
+  text-decoration: none;
+}

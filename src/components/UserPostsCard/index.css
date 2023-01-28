@@ -1,0 +1,248 @@
+.userPostsCard-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .userPostsCard-container {
+    margin-top: 0px;
+    margin-left: -22px;
+  }
+}
+.UsersPostsCard-profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0px 0px;
+}
+.img-container-profile-pic {
+  background-image: linear-gradient(295deg, #e20337, #c60188, #7700c3);
+  padding: 1px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+.UsersPostsCard-profile-img {
+  width: 36px;
+  height: 36px;
+  padding: 1px;
+  background-color: white;
+  border-radius: 36px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.UsersPostsCard-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+}
+
+.post-details-img {
+  width: 100%;
+  height: 375px;
+}
+
+.below-container {
+  box-sizing: border-box;
+
+  width: 100%;
+
+  left: 0px;
+
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0px 0px 4px 4px;
+  padding: 20px;
+}
+
+.likes-count-cls {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+}
+.post-details-caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+}
+.comments-detail-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.comment-list-item {
+  display: flex;
+  align-items: center;
+}
+.commented-user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 8px;
+  margin-top: 0px;
+  color: #262626;
+}
+
+.commented-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 14px;
+  margin-top: 0px;
+  color: #262626;
+}
+.created-at {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+
+  color: #989898;
+}
+.like-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.icon-btn-cls {
+  color: #475569;
+  font-size: 18px;
+  margin-right: 7px;
+}
+.active-like {
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .likes-count-cls {
+    font-size: 12px;
+  }
+  .post-details-caption {
+    font-size: 12px;
+  }
+
+  .commented-user-name {
+    font-size: 13px;
+    margin-right: 2px;
+  }
+
+  .commented-text {
+    font-size: 12px;
+  }
+  .created-at {
+    font-size: 12px;
+  }
+  .like-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .icon-btn-cls {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .userPostsCard-container {
+    width: 1040px;
+  }
+  .UsersPostsCard-profile {
+    width: 1040px;
+  }
+  .post-details-img {
+    width: 1040px;
+    min-height: 1000px;
+  }
+  .below-container {
+    width: 1040px;
+  }
+}
+
+.comment-input-container {
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.comment-input {
+  width: 80%;
+}
+
+.show-comment-input-to-user {
+  display: flex;
+}
+
+.hide-comment-input {
+  display: none;
+}
+
+.comment-btn {
+  background-color: rgb(39, 87, 219);
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  border-width: 0px;
+  height: 28px;
+  border-radius: 4px;
+  font-weight: 100;
+}
+
+@media (max-width: 767px) {
+  .comment-input-container {
+    width: 90%;
+  }
+  .comment-btn {
+    font-size: 12px;
+    margin-left: 4px;
+  }
+}

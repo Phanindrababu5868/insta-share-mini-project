@@ -1,0 +1,47 @@
+.something-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.something-image {
+  width: 80%;
+  margin-top: 30px;
+}
+
+.something-text {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.try-again-button {
+  border: none;
+  outline: none;
+  background: #4094ef;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+
+  font-style: normal;
+
+  color: #ffffff;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .try-again-btn {
+    font-size: 24px;
+  }
+  .something-image {
+    width: 30%;
+  }
+  .something-text {
+    font-size: 32px;
+  }
+}
